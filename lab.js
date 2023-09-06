@@ -8,6 +8,16 @@
 
 //CODE HERE
 
+let lovesCode = true;
+
+if (lovesCode = true) {
+console.log('I love to code!')
+} else {
+  console.log('Coding has its challenges')
+}
+
+
+
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
 var brittanisAge = 34;
@@ -22,6 +32,14 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+// if (amysAge > brittanisAge) { 
+// console.log ("Amy is older")
+// }    else if (amysAge === brittanisAge) { 
+// console.log("Amy and Brittani are the same age")
+// }   else { 
+// console.log("Brittani Is older")
+// }
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -30,6 +48,12 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+// if (amysBirthYear === brittanisBirthYear) {
+//   console.log ("Amy & Brittani were born in the same year")
+// } else {
+//   console.log ("Amy & Brittani were not born in the same year")
+// }
+
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
@@ -37,10 +61,23 @@ let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
-  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
+  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 
+  degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
 //CODE HERE
+
+// if (temperature >= 80 && rain = true) {
+//   console.log(" wear a t-shirt and take an umbrella")
+// }   else if (temperature >= 60 && temperature<=80 && rain = true) {
+//   console.log("wear a rain-jacket") 
+// }   else if (temperature <=60) {
+//   console.log("wear a jacket and carry an umbrella")
+// }   else if (temperature >= 80 && rain = false) {
+//   console.log(" wear a t-shirt")
+// }   else if (temperature >= 60 && temperature<=80 && rain = false) {
+//   console.log("wear long sleeve")
+// }
 
 ////////// PROBLEM 5 //////////
 
@@ -50,6 +87,10 @@ let rain = true;
 
 //CODE HERE
 
+// for (let i=0; i<10; i++){
+//   console.log('hello')
+// }
+
 ////////// PROBLEM 6 //////////
 
 /*
@@ -57,6 +98,10 @@ let rain = true;
 */
 
 //CODE HERE
+
+// for (let i=0; i<10; i++){
+//   console.log('$i')
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -66,17 +111,26 @@ let rain = true;
 
 //CODE HERE
 
+// for (let i=10; i>0; i--){
+//   console.log('$i')
+// }
 
 ////////// PROBLEM 8 //////////
 
-let score = 0;
-let passingScore = 7;
+// let score = 0;
+// let passingScore = 7;
 
 /*
-  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
+  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, 
+  you will see your logged statement 7 times.
 */
 
 //CODE HERE
+
+// while (score >7){
+//  console.log("your score is not high enough")
+//  score++
+// }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -88,6 +142,16 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
+// let changeMyMind = true
+
+// if (changeMyMind = true){
+//   changeMyMind =false
+// }
+
+// if (changeMyMind = false){
+//   changeMyMind =true
+// }
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
